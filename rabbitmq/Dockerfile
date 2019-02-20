@@ -1,4 +1,4 @@
-FROM rabbitmq:3.6.11-management
+FROM rabbitmq:3.6.11
 MAINTAINER Will Liu "william.q.liu@gmail.com"
 RUN apt-get update && apt-get -y upgrade
 
